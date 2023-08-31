@@ -9,7 +9,7 @@ interface ProductPageProps{
     params:{
         productId: string;
     }
-};
+}
 
 const ProductPage :React.FC<ProductPageProps> = async ({
     params
